@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(226, 208, 43);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+nav li a:hover{
+    color: black;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+ }
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 100px;
+    height: 100vh;
+
+}
+.profile-image{
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+
+}
+.profile-img{
+    width: 50%;
+}
+.about-me{
+    width: 50%;
+}
+.about-me h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.about-me h3{
+    font-size: 23px;
+}
+
+.about-me p {
+    width: 500px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+button{
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    font-size: 15px;
+    font-weight: bold;
+    border:0.5px solid black;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+button:hover{
+    background-color: white;
+    transition-timing-function: ease-in ;
+}
+.resume{
+    background-color: #EEA302;
+    
+}
+.projects{
+    background-color: #FF3B25;
+}
+.contact{
+    background-color: #80D8Da;
+}
+hr{
+    width: 80%;
+}
+.footer-sec{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.footer-sec div{
+    display: flex;
+    align-items: center;
+}
+.footer-sec span{
+    margin-left: 10px;
+}
+.social-media{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+.footer-sec i {
+    font-size: 25px;
+}
+
+
+
